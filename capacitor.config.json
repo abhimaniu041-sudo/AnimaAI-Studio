@@ -1,0 +1,21 @@
+{
+  "appId": "com.animaai.studio",
+  "appName": "AnimaAI Studio",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#0f0a1e",
+      "showSpinner": false
+    }
+  },
+  "android": {
+    "minWebViewVersion": 60,
+    "allowMixedContent": true,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  }
+}
